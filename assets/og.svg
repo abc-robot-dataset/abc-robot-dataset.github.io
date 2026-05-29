@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <g transform="translate(600 315)">
+    <rect x="-160" y="-160" width="320" height="320" fill="none" stroke="#c8102e" stroke-width="22" rx="18"/>
+    <text x="0" y="6" text-anchor="middle" dominant-baseline="central"
+          font-family="Georgia, 'Times New Roman', serif"
+          font-weight="700" font-size="240" fill="#c8102e">A</text>
+  </g>
+</svg>
