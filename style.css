@@ -40,8 +40,6 @@ body {
 #teaser-video {
   width: 100%;
   height: auto;
-  border-radius: 15px;
-  border: 1.5px solid #000;
   box-sizing: border-box;
   background-color: #000;
   display: block;
