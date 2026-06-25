@@ -39,7 +39,6 @@
       <li><a href="#sim">Sim</a></li>
       <li><a href="#evaluation">Evaluation</a></li>
       <li><a href="#infrastructure">Infrastructure</a></li>
-      <li><a href="#citation">Citation</a></li>
     </ul>
   </nav>
 
@@ -47,34 +46,9 @@
     <div class="hero-text">Scalable Behavior Cloning with Open Data, Training, and Evaluation</div>
 
     <div class="authors">
-      <p class="author-list">
-        <span class="author core"><a class="name" href="https://allshire.org/" target="_blank" rel="noopener">Arthur Allshire</a><sup>1*</sup></span>,
-        <span class="author core"><a class="name" href="https://hgaurav2k.github.io/" target="_blank" rel="noopener">Himanshu Gaurav Singh</a><sup>1*</sup></span>,
-        <span class="author core"><a class="name" href="https://www.ritvik-singh.com/" target="_blank" rel="noopener">Ritvik Singh</a><sup>1*</sup></span>,
-        <span class="author core"><a class="name" href="https://adamrashid96.github.io/" target="_blank" rel="noopener">Adam Rashid</a><sup>2*</sup></span>,
-        <span class="author core"><a class="name" href="https://hongsukchoi.github.io/" target="_blank" rel="noopener">Hongsuk Choi</a><sup>1*</sup></span>,
-        <span class="author core"><a class="name" href="https://mcallisterdavid.com/" target="_blank" rel="noopener">David McAllister</a><sup>1*</sup></span><br>
-        <span class="author"><span class="name">Justin Yu</span><sup>1,4</sup></span>,
-        <span class="author"><span class="name">Yiyuan Chen</span><sup>4</sup></span>,
-        <span class="author"><span class="name">Huang Huang</span><sup>4</sup></span>,
-        <span class="author"><span class="name">Pieter Abbeel</span><sup>1,3</sup></span>,
-        <span class="author"><span class="name">Xi Chen</span><sup>3</sup></span>,
-        <span class="author"><span class="name">Rocky Duan</span><sup>3</sup></span>,
-        <span class="author"><span class="name">Phillip Isola</span><sup>2</sup></span>,
-        <span class="author"><span class="name">Jitendra Malik</span><sup>1,3</sup></span>,
-        <span class="author"><span class="name">Fred Shentu</span><sup>1,4</sup></span>,
-        <span class="author"><span class="name">Guanya Shi</span><sup>3,5</sup></span>,
-        <span class="author"><span class="name">Philipp Wu</span><sup>4</sup></span>,
-        <span class="author"><span class="name">Angjoo Kanazawa</span><sup>1,3</sup></span>
-      </p>
       <p class="affiliation-list">
-        <span class="affiliation"><sup>1</sup>UC Berkeley</span>
-        <span class="affiliation"><sup>2</sup>MIT</span>
-        <span class="affiliation"><sup>3</sup>Amazon FAR</span>
-        <span class="affiliation"><sup>4</sup>XDOF</span>
-        <span class="affiliation"><sup>5</sup>Carnegie Mellon University</span>
+        <span class="affiliation">Anonymous submission</span>
       </p>
-      <p class="contributor-note"><sup>*</sup>Core Contributor; work performed during an internship at Amazon FAR.</p>
     </div>
 
     <div class="video-frame teaser-frame">
@@ -3810,23 +3784,6 @@
       <figcaption><strong>Efficient frame access for fast data loading.</strong> Encoding keyframes more frequently and in a manner that allows for an analytically reconstructed frame index makes random frame access nearly free. To read one frame from a video, <code>torchcodec</code>'s default scans the entire file to build its frame index (top). Correctly encoding the file allows us to compute the index analytically, meaning we only need to read the file header plus frames since the closest keyframe, leaving the rest of the file untouched, reducing disk pressure. The decoded frame is three vertically stacked camera views.</figcaption>
     </figure>
 
-    <div class="tagline" id="citation">Citation</div>
-
-    <div class="section">
-      <pre class="citation-block"><code>@article{abc2026,
-  title   = {Scalable Behavior Cloning with Open Data, Training, and Evaluation},
-  author  = {Allshire, Arthur and Singh, Himanshu Gaurav and Singh, Ritvik and Rashid, Adam and Choi, Hongsuk and McAllister, David and Yu, Justin and Chen, Yiyuan and Huang, Huang and Abbeel, Pieter and Chen, Xi and Duan, Rocky and Isola, Phillip and Malik, Jitendra and Shentu, Fred and Shi, Guanya and Wu, Philipp and Kanazawa, Angjoo},
-  year    = {2026},
-  journal = {arXiv preprint},
-  url     = {https://abc.bot/},
-}</code></pre>
-    </div>
-
-    <div class="end-card">
-      <img src="./assets/og.png" alt="ABC: a yellow dog watches a robot arm carry a blue mouse while a cat rests on ABC blocks under a starry painted sky. A signpost reads 'BC is EZPZ.'">
-      <p class="end-card-tag">— learning the ABCs of behavior cloning, together —</p>
-      <p class="end-card-credit">art by <a href="https://yukaryote.github.io/" target="_blank" rel="noopener">Isabella Yu</a></p>
-    </div>
   </div>
 
   <div class="lightbox" id="lightbox" aria-hidden="true">
